@@ -30,6 +30,12 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
+    -Pictures provided by unsplash.com:
+        -https://unsplash.com/photos/6J--NXulQCs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+        -https://unsplash.com/photos/6J--NXulQCs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+        -https://unsplash.com/photos/_h7aBovKia4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+        -https://unsplash.com/photos/V6s1cmE39XM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+        -https://unsplash.com/photos/8BmNurlVR6M?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
     -Readme layout provided used: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
     -Normalize.css by Nicolas Gallagher: https://github.com/necolas/normalize.css/blob/master/normalize.css
 
