@@ -3,7 +3,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
-
+/* header styling */
 header {
   background-color: #a4c2bb;
 }
@@ -22,22 +22,39 @@ header ul {
 }
 
 header li {
+  border: solid;
   font-size: 125%;
   list-style: none;
   width: 125px;
-  padding: 50px;
-}
-main {
-  background-color: #c2b9a4;
-}
-main h2 {
-  display: flex;
-  justify-content: column;
-}
-main section {
-  padding: 50px;
+  padding: 15px;
+  margin-left: 20px;
 }
 
+/* Main body styling */
+main {
+  background-color: #c2b9a4;
+  /* display: flex; */
+}
+main section {
+  display: flex;
+  flex-direction: column;
+}
+main h2 {
+  align-items: flex-start;
+  border-bottom: solid;
+}
+
+main section p {
+  padding: 50px;
+  align-items: flex-end;
+  width: 75%;
+}
+main img {
+  max-height: 200px;
+  /* max-width: 300px; */
+}
+
+/* footer styling */
 footer {
   background-color: #c2a4b7;
 }
