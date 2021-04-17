@@ -1,9 +1,24 @@
 * {
   margin: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
   background-color: #a4c2bb;
+}
+header h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header li {
+  list-style: none;
+  border: black;
 }
 main {
   background-color: #c2b9a4;
