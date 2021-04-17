@@ -1,15 +1,20 @@
 * {
   margin: 0px;
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 header {
   background-color: #a4c2bb;
 }
 header h1 {
+  display: flex;
+  flex: 1 1 800;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
   color: white;
+  font-size: 300%;
+  margin: 0px 100px;
 }
 header ul {
   display: flex;
@@ -17,12 +22,22 @@ header ul {
 }
 
 header li {
+  font-size: 125%;
   list-style: none;
-  border: black;
+  width: 125px;
+  padding: 50px;
 }
 main {
   background-color: #c2b9a4;
 }
+main h2 {
+  display: flex;
+  justify-content: column;
+}
+main section {
+  padding: 50px;
+}
+
 footer {
   background-color: #c2a4b7;
 }
