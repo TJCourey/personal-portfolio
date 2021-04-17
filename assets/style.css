@@ -3,6 +3,11 @@
 }
 
 header {
-  background-color: #81a8d1;
-  color: #d19f81;
+  background-color: #a4c2bb;
+}
+main {
+  background-color: #c2b9a4;
+}
+footer {
+  background-color: #c2a4b7;
 }
