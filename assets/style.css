@@ -55,7 +55,8 @@ main p {
 }
 img {
   max-height: 200px;
-  max-width: 300px;
+  max-width: 200px;
+  object-fit: fill;
 }
 
 #portfolio-links {
@@ -63,7 +64,6 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: center;
 }
 
 /* footer styling */
