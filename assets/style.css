@@ -39,6 +39,7 @@ main {
 main section {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 main h2 {
   align-items: flex-start;
@@ -46,27 +47,45 @@ main h2 {
   min-width: 150px;
   margin-bottom: 50px;
 }
+.main-q {
+  display: flex;
 
-main p {
-  align-content: flex-end;
+  justify-content: right;
   margin: 50px;
-  margin-bottom: 50px;
-  text-align: end;
+  text-align: right;
+}
+.main-p {
+  display: flex;
+
+  justify-content: right;
+  margin: 50px;
+  text-align: right;
+  flex-direction: column;
 }
 img {
-  max-height: 200px;
-  max-width: 200px;
-  object-fit: fill;
+  height: 200px;
+  width: auto;
+  object-fit: contain;
 }
-
-#portfolio-links {
+.col {
+  flex: 1;
+  text-align: center;
+  margin: 50px;
+}
+.portfolio-links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-application {
+  height: 400px;
+  width: auto;
 }
 
 /* footer styling */
 footer {
-  background-color: #c2a4b7;
+  background-color: #a4c2bb;
 }
