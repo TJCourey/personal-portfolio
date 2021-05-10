@@ -31,9 +31,6 @@ header li {
   margin-left: 20px;
   transition: 1.5s;
 }
-/* .container {
-  margin-left: 25px;
-} */
 
 header li:hover {
   background-color: #c2a4a8;
